@@ -1,0 +1,21 @@
+#eventimage {
+    width: 500px;
+}
+
+#events {
+  background-color: orange;
+}
+
+#event {
+    padding: 30px;
+}
+
+#schedule-container {
+    position: relative;
+    float: left;
+}
+
+#calendar-container {
+  position: relative;
+  float: left;
+}

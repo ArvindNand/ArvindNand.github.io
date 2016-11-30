@@ -1,0 +1,44 @@
+#stats {
+  background-color: orange;
+}
+
+#scores-container {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#rules-container {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#win-container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#sheet {
+    width: 1000px;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 420px;
+}
+
+.sbox {
+  position: relative;
+  float: left;
+  background-color: rgba(171, 149, 103, 0.6);
+  color: white;
+  padding: 40px;
+  letter-spacing: 1px;
+  line-height: 200%;
+  margin: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+  transform: translateX(15%);
+  width: 400px;
+}

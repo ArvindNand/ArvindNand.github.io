@@ -1,0 +1,33 @@
+/*every 2nd and 4th friday*/
+
+#slide {
+    margin-top: -1%;
+    opacity: 0;
+    -webkit-animation: slideIndate 1.5s 1s cubic-bezier(0.46, -3.97, 0.52, 0.96) forwards;
+    -moz-animation: slideIndate 1.5s 1s cubic-bezier(0.46, -3.97, 0.52, 0.96) forwards;
+    -o-animation: slideIndate 1.5s 1s cubic-bezier(0.46, -3.97, 0.52, 0.96) forwards;
+    animation: slideIndate 1.5s 1s cubic-bezier(0.46, -3.97, 0.52, 0.96) forwards;
+}
+
+/*root slam svg animation*/
+
+ @keyframes appear {
+     to{
+         opacity: 1;
+     }
+}
+
+@keyframes slideIndate {
+     to{
+         opacity: 1;
+         margin-top: 0%;
+     }
+ }
+
+/*tree background*/
+
+#tree {
+  position: relative;
+  width: 1200px;
+  float: left;
+}

@@ -1,0 +1,195 @@
+
+/*import fonts*/
+
+@font-face {
+    font-family: ebrima;
+    src: url(ebrima.ttf);
+}
+
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0f0f0f;
+}
+
+#page-wrapper {
+    width: 100%;
+    height: 100%;
+    transform: translateX(15%);
+    position: fixed;
+    overflow-y: scroll;
+}
+
+
+ /*background image*/
+
+.background {
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: -10;
+}
+
+/*title container*/
+
+#head-container {
+    position: relative;
+    top: 0%;
+    width: 800px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    transform: translateX(15%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*every 2nd and 4th friday*/
+
+#date {
+    color: white;
+    font-family: ebrima;
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    opacity: 1;
+    text-align: center;
+}
+
+#date:hover {
+  cursor: default;
+}
+
+/*@MLk Cafe*/
+
+#location {
+    width: 100%;
+    text-align: center;
+}
+
+#leftsquare {
+    background-color: orange;
+    width: 150px;
+    height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+#mlk {
+    color: white;
+    font-family: Petit Formal Script;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#rightsquare {
+    background-color: orange;
+    width: 150px;
+    height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+ /*begin menu*/
+
+ a {
+    text-decoration: none;
+}
+
+ #menu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgba(255, 255, 255, 0.5);
+    width: 15%;
+    height: 100%;
+}
+
+.navitem {
+    padding-bottom: 15%;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    transition-duration: 1s
+}
+
+.navitem:hover {
+  background-color: orange;
+}
+
+.navtext {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    padding-left: 10%;
+    transform: translateY(-50%);
+    font-size: 110%;
+    color: black;
+}
+
+/*content box */
+
+.box {
+  position: relative;
+  float: left;
+  background-color: rgba(171, 149, 103, 0.6);
+  color: white;
+  padding: 40px;
+  letter-spacing: 1px;
+  line-height: 200%;
+  margin: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+  transform: translateX(15%);
+}
+
+.title {
+    font-size: 32px;
+    padding-bottom: 2%;
+}
+
+/*arrow scrolling*/
+
+#scrollbar {
+    position: fixed;
+    height: 100%;
+    width: 5%;
+    right: 0%;
+    z-index: -5;
+}
+
+.arrow {
+    width: 100%;
+}
+
+#down {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    opacity: 0;
+}
+
+#up {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    opacity: 0;
+}
